@@ -14,7 +14,7 @@ it("parameter is not an array and throws an error", () => {
   }).toThrow("Type error. Parameter is not an array.");
 });
 
-it("array is sorted in alphabetical order", () => {
+it("create new array from age", () => {
   const toCompare = [29, 42, 23, 50];
 
   const toTest = [

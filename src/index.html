@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+  </head>
+  <body>
+    <main id="app">
+      <section class="grid">
+        <article class="course_card">
+          <div class="course_card__image">
+            <a href="#" rel="bookmark">
+              <!--Ideally use srcset in real context-->
+              <img
+                src="https://place-hold.it/320x180?text=Placeholder Image&italic"
+                alt="Placeholdit thumbnail image"
+                width="320px"
+                height="180px"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <div class="course_card__price">£149.00</div>
+          <div class="course_card__description">
+            <header>
+              <h2>
+                <a href="#" rel="bookmark">
+                  An Introduction to the Biggest Mysteries of the Cosmos
+                </a>
+              </h2>
+            </header>
+            <p>
+              This course introduces what we know about the universe, before
+              exploring four key mysteries that are the focus of cutting-edge
+              research in cosmology.
+            </p>
+          </div>
+          <footer class="course_card__footer">
+            <span class="course_card__lesson_count">52</span>
+            Lessons
+          </footer>
+          <!-- Ideally we want to use Product schema in a real world context, but this is a an appropriate schema given Ratings data is not available in the given example and is required for a valid Product schema.  -->
+          <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "An Introduction to the Biggest Mysteries of the Cosmos",
+              "description": "This course introduces what we know about the universe, before exploring four key mysteries that are the focus of cutting-edge research in cosmology.",
+              "provider": {
+                "@type": "Organization",
+                "name": "New Scientist",
+                "sameAs": "New Scientist Ltd"
+              }
+            }
+          </script>
+        </article>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

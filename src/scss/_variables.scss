@@ -1,0 +1,21 @@
+:root {
+  --white: #fff;
+  --light_grey: #f6f6f6;
+  --mid_grey: #4a4a4a;
+  --accent_1_color: #f68b1f;
+  --accent_2_color: #00072a;
+
+  --border_color: #eef0f1;
+  --background_color: var(--light_grey);
+  --text_color: var(--mid_grey);
+  --heading_color: var(--accent_2_color);
+  --heading_font: "Merriweather", serif;
+  --body_font: "Merriweather Sans", sans-serif;
+
+  --box_shadow: 0px 0.4px 0.7px -5px rgba(0, 0, 0, 0.014),
+    0px 1px 1.7px -5px rgba(0, 0, 0, 0.02),
+    0px 1.9px 3.1px -5px rgba(0, 0, 0, 0.025),
+    0px 3.4px 5.6px -5px rgba(0, 0, 0, 0.03),
+    0px 6.3px 10.4px -5px rgba(0, 0, 0, 0.036),
+    0px 15px 25px -5px rgba(0, 0, 0, 0.05);
+}
